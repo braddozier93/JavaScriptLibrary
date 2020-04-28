@@ -1,0 +1,9 @@
+table{
+    background-color: lightskyblue;
+    border: black solid 15px;
+    margin: auto;
+}
+
+#movies {
+    text-align: center;
+}
