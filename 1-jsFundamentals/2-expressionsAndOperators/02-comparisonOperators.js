@@ -16,7 +16,7 @@ console.log(3 > 1);
 //less than
 console.log(3 < 1);
 
-//grater than or equal to 
+//greater than or equal to 
 console.log(5 >= 3);
 
 //less than or equal to

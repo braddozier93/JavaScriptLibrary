@@ -27,3 +27,4 @@ let weather = 60;
 if (weather < 70) {
     console.log("wear a jacket");
 }
+
