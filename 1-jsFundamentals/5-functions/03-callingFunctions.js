@@ -28,5 +28,5 @@ function call() {
 };
 call();
 
-//do i have for in and for of backwards--take a look again
 
+   

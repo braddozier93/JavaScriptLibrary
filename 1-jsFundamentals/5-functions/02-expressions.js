@@ -12,4 +12,3 @@ let hey = function hi() {
 
 //calling the function
 hey();
-
