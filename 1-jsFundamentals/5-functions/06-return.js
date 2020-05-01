@@ -25,14 +25,14 @@ let greetedName = name('Leia Organa');
 console.log(greetedName);
 
 //example
-function capitalizeName(name){
+function capitalizeName(name) {
     console.log(name[0].toUpperCase() + name.slice(1).toLowerCase());
 }
 
 let correctName = capitalizeName('jErOme');
 
 console.log(correctName);
-//why undefined
+//why is line 34 console.log undefined---because there is no return inside the function
 
 
 //function to find the area of a rectangle
@@ -66,12 +66,13 @@ function tip(price, percent) {
 //variable below don't have to be named the same as parameters, it's the placing
 let myPrice = 10;
 let myPercent = .20;
-//make .2 into a percent amount/100 istead of typing in .2
+//can also make .2 into a percent amount/100 istead of typing in .2
 let myTipAmount = "$" + tip(myPrice, myPercent);
 console.log(myTipAmount);
 
+/*
 
-/*another solution??;
+another solution??;
 
 function tip(bill, twentyPercent) {
     let tip = bill * twentyPercent;
@@ -79,9 +80,10 @@ function tip(bill, twentyPercent) {
 }
 
 //the variables below don't have to be named the same as parameters
-let bill = 100:
+let bill = 100;
 let twentyPercent = .2;
 let totalTip = tip(bill, twentyPercent) + "%";
 console.log(totalTip);
 
 */
+​

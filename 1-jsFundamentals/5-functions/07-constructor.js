@@ -22,7 +22,7 @@ function TV (screenSize, screenType, refreshRate, manufacturer) {
         `A ${this.screenSize}" ${this.refreshRate}hz ${this.screenType} ${this.manufacturer} Television.`;
 }
 
-myTv.refreshRate
+myTv.refreshRate;
 
 let firstTv = new TV(80, "led", 80, "LG");
 

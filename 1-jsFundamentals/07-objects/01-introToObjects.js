@@ -9,7 +9,7 @@ let netFlix = {
         seasonInfo: [
             {
                 season: 1, 
-                episodes: 6,
+                episodes:6,
                 episodeInfo: [
                     {
                         episode: 1, 
@@ -35,6 +35,7 @@ let netFlix = {
     },
 };
 
+console.log(netFlix.name);
 //console.log("whole Object:", netFlix);
 //console.log("Just Series Info:", netFlix.seriesInfo);
 //console.log("Just Season Info: ", netFlix.seriesInfo.seasonInfo[0].episodeInfo[0]);
@@ -115,3 +116,51 @@ console.log(baking);
 //                 evaluates this first, which = zucchini
 //same as baking.zucchini
 console.log(baking[garden["vegetable"]]);
+
+
+
+
+
+
+//REPL Homework- 4/30/2020
+//Testing below:
+
+let movie = {
+    nameOfMovie: "The Goonies",
+    runTime: 90,
+    genre: "Adventure",
+    characters : {
+        characterList: [
+            {
+                name: "Mikey",
+                age: 13,
+                items:[
+                    {
+                        itemOne: "braces",
+                        itemTwo: "inhaler"
+                    }
+                ]
+            },
+            {
+                name: "Brandon",
+                age: 16,
+                items: [
+                    {
+                        itemOne: "bike",
+                        itemTwo: "sweatpants"
+                    }
+                ]
+            }
+        ],
+    },
+};
+
+
+console.log(movie.nameOfMovie);
+console.log(movie.runTime);
+console.log(movie.characters);
+console.log(movie.characters.characterList[0].name);
+console.log(movie.characters.characterList[1].items[0].itemTwo);
+
+//REPL Homework above from 4/30/2020
+//completed, but need more work on objects and combining them with other objects/arrays

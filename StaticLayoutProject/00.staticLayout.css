@@ -1,0 +1,54 @@
+#covid-bar {
+    color: white;
+    font-size: 16px;
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    z-index: 99999;
+    top: 0px;
+    left: 0px;
+    background: #edb71e;
+    text-align: center;
+    border-bottom: 0px solid transparent;
+    box-sizing: border-box;
+}
+
+#covid-bar-wrapper {
+    position: relative;
+}
+
+.covid-bar-section {
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+#covid-bar-description {
+    line-height: 1.2;
+}
+
+.covid-bar-button {
+    background-image: none;
+    text-shadow: none;
+    color: white;
+    font-weight: 400;
+    white-space: initial;
+    display: inline-block;
+    border-radius: 3px;
+    line-height: initial;
+    font-size: 16px;
+    padding: 5px 6px 5px 6px;
+}
+
+#covid-close {
+    display: block;
+    position: absolute;
+    top: 0;
+    box-sizing: initial;
+    right: 0;
+    cursor: pointer;
+
+}
+
+#covid-close img {
+    width: 16px;
+}

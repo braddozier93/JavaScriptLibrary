@@ -5,6 +5,9 @@ let student = {
     week: 1
 }
 
+
+//let creates a variable with a placeholder value for whatever we are iterating over
+//console.log(item); will return (enumerable?) property names, which are strings
 for (let item in student){
     console.log(item);
     console.log(student[item]);

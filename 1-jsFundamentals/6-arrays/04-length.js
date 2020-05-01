@@ -49,3 +49,8 @@ let correctSpelling = colors.forEach(color => {
     let newColor = color[0].toUpperCase() + color.slice(1).toLowerCase();
     console.log(newColor);
 });
+
+
+
+
+
