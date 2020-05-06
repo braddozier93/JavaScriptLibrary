@@ -2,7 +2,7 @@ let food = ["Pecan pie", "Shrimp", "Quesadilla", "Cheese Cake", "Hotdog"];
 
 //for (let i = 0; i < food.length; i++) {
 //    console.log(food[i]);
-//}
+// }
 
 //concise body
 food.forEach  = foodItem => console.log(foodItem);
