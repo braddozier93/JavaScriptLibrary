@@ -7,12 +7,12 @@
         hi(800);
 
         //pretend we have 800 lines of code
-        hi('brad');
+        hi('Brad');
 
 /*challenge-- write a function that takes in two parameters
             -one parameter for first name, one for last
-            -have them come together in a variable inside the function
-            -console.log 'Hello my name is <your name>
+            -have them come together in a variable 
+            -inside the function console.log 'Hello my name is <your name>
             -call(or invoke) your function
 */
 

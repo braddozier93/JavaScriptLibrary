@@ -18,7 +18,7 @@ if (name == "Brad") {
 }
 
 //silver
-let name = "Marissa";
+let name = "Brad";
 if (name == "Brad") {
     console.log(`Hello, my name is ${name}`);
 }
@@ -68,5 +68,3 @@ if (age >= 25) {
     console.log("Sorry, you can to anything");
 }
 
-
-//solution

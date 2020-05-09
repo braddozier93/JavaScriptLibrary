@@ -5,7 +5,7 @@ let student = {
     week: 1
 }
 
-for (let item of student){
+for (let item in student){
     console.log(item);
 }
 

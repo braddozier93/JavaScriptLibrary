@@ -16,7 +16,7 @@ console.log(typeof colors);
 */
 let colors = ["blue", "green", "yellow", "red", "orange", "purple"];
 
-console.log(colors instanceof Array);
+/*console.log(colors instanceof Array);
 console.log(colors.reverse());
 console.log(colors.toString());
 /*

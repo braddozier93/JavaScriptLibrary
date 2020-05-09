@@ -10,7 +10,8 @@ let list = ["item 1",   "item2",    "item3"];
 
 //              (0)       (1)       (2)
 let fruit = ["orange", "banana", "apple"];
-console.log(fruit)[0];
+console.log(fruit instanceof Array);
+console.log(fruit[0]);
 
 let students = [
     "Mitchell",
@@ -25,4 +26,4 @@ let students = [
 console.log(students instanceof Array);
 //nested array
 console.log(students[5][1]);
-console.log(students[5][3][2])
+console.log(students[5][3][2]);

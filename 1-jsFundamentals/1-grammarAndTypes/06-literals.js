@@ -9,7 +9,7 @@ let december = 12;
 //boolean literal--true or false
 let tired = false;
 
-//object literal {object in here--can have multiple values in the object}
+//object literal {object in here--can have multiple keys and values in the object}
 let soup = {
     a: "chicken noodle",
     b: "tomato",

@@ -74,8 +74,8 @@ let spaceJam = {
     }
 };
 
-//console.log(Object.keys(spaceJam));
-//console.log(Object.keys(spaceJam.toonSquad));
+console.log(Object.keys(spaceJam));
+console.log(Object.keys(spaceJam.toonSquad));
 //console.log(spaceJam.nbaPlayers.charlotteHornets1);
 //console.log(spaceJam.monstars[0]);
 //console.log(spaceJam.nbaPlayers["phoenix Suns"]);
@@ -98,8 +98,8 @@ let keys = Object.keys(garden);
 console.log(keys);
 console.log(typeof keys[0]);
 
-let zucchini = garden["vegetable"];
-console.log(zucchini);
+let zucch = garden["vegetable"];
+console.log(zucch);
 
 
 

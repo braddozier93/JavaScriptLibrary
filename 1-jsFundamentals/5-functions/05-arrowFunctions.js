@@ -13,6 +13,7 @@
        console.log('hi');
        //lots of code goes here
    };
+   hi();
 
    /* NOTE: block body arrow functions must have a return statement
    (if you want to get information) in the body of the function*/

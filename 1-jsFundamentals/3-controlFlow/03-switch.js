@@ -1,4 +1,4 @@
-let officeCharacter = "Pam";
+let officeCharacter = "Jim";
 
 switch (officeCharacter) {
     case "Michael":
@@ -16,7 +16,7 @@ switch (officeCharacter) {
 //default statement is the catch all
 
 //challenge dessert menu
-let dessert = "notlisted";
+let dessert = "icecream";
 
 switch (dessert) {
     case "pie":

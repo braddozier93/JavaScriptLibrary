@@ -1,6 +1,7 @@
 let food = ["Pecan pie", "Shrimp", "Quesadilla", "Cheese Cake", "Hotdog"];
 
-/*for(let foodItem of food) {
+/*
+for(let foodItem of food) {
     console.log(foodItem);
 }
 

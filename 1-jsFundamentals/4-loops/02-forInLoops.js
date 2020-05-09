@@ -12,13 +12,13 @@ for (let item in student){
     console.log(item);
     console.log(student[item]);
 }
-
+//cat is the postion in the array
 let catArray = ["tabby", "shorthair", "burmese", "maine coon", "rag doll"];
 
 for (let cat in catArray){
-    console.log(cat);
+    console.log(cat[0]);
     console.log(catArray[cat]);
-}
+}//           arrayname   position in array
 
 /*challenge - write a for in loop that capitalizes the first letter of a name
 and lowercases the rest of the name*/
@@ -43,5 +43,4 @@ for (let l in name){
     capName += name[l].toLowerCase();
     }
 }
-
 console.log(capName);
