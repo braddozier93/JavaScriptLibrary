@@ -1,10 +1,11 @@
+//object literal with properties/keys("name") and values("bob alcorn")
 let bobAlcorn = {
     name: "Bob Alcorn",
     age: 59,
     vocation: "Chief Operating Officer",
     isRetired: false
 };
-
+// dot . notation gives you access to an object's properties and values
 console.log(bobAlcorn);
 console.log(bobAlcorn.name);
 console.log(bobAlcorn.age);
@@ -24,6 +25,8 @@ let friend = {
     age: 33,
     occupation: "Dance Teacher"
 }
+console.log(friend)
+console.log(friend.name + ": " + friend.occupation);
 
 let movie = {
     name: "Raiders of the Lost Ark",

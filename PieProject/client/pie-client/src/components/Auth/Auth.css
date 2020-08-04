@@ -1,0 +1,37 @@
+/*will also work in my app.css, but nice to keep it separate to make it easier to work with
+/*so we don't end up having to sort through 100 plus lines of code, just do a .css each component
+
+/*id still needs to be unique. class names and ids need their own names
+ or need to match across the application*/
+input {
+    border: none;
+    border-radius: 5px;
+    background-color: lightgray;
+    height: 40px;
+    width: 300px;
+    text-indent: 10px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: 18px;
+}
+
+input:focus {
+    outline: none;
+    background-color: grey;
+    color:white;
+}
+
+button {
+    margin-top: 1em;
+    border: none;
+    height: 50px;
+    width: 200px;
+    background-color:grey;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:focus {
+    outline: none;
+}

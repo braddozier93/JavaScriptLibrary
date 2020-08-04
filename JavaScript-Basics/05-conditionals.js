@@ -4,11 +4,16 @@ if(weather > 70){
     console.log("Wear shorts today! It's going to be hot!")
 };
 
+
 var hungry = "yes";
 
 if(hungry == "yes"){
     console.log("Caveman need food.")
 };
+if(hungry == 'no'){
+    console.log('aleady ate')
+};
+
 
 var consecDaysWork = 7;
 

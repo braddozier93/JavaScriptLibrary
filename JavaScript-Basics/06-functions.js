@@ -8,9 +8,10 @@ pacersWon();
 pacersWon();
 
 function subtractTwoNumbers(firstNum, secondNum){
-    console.log(firstNum-secondNum);
+    console.log(firstNum-secondNum)
 }
 subtractTwoNumbers(5, 7);
+
 
 function getMyBattingAverage(atBats, numberOfHits){
     let myAverage = numberOfHits / atBats;
@@ -18,17 +19,20 @@ function getMyBattingAverage(atBats, numberOfHits){
 }
 console.log(getMyBattingAverage(250, 91));
 
+
 function add(x, y){
     let sum = x + y;
     return sum;
 }
 console.log(add(1, 1));
 
+
 function fullName(first, last){
     let wholeName = first + " " + last;
     return wholeName;
 }
 console.log(fullName("Paul", "O'Connor"));
+
 
 function calculatePriceIndiana(quantity, price){
     let totalPrice = 1.07 * quantity * price;

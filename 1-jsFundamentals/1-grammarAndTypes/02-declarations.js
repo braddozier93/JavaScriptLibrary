@@ -22,9 +22,9 @@ console.log(a + b);
             camelCase, snake_case, PascalCase
 */
 
-var c = 1;
-let d = 2;
-const e = 3; //value must remain constant
+var c = 1; // var declares a variable
+let d = 2; //let declares a variable that is block-scoped
+const e = 3; //const declares a block-scoped variable, that value must remain constant
 
 /* Declarations are the LEFT side of a variable
     -it is simply: let x

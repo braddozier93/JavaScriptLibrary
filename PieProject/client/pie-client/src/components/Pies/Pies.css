@@ -1,0 +1,7 @@
+table {/*we could also use flexbox*/
+    position : absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-collapse: collapse;/*gets rid of spacing between cell borders we have in displaypie.css*/
+}

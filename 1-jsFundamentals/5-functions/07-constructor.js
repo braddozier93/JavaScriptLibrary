@@ -12,7 +12,7 @@ let yourTV = {
     manufacturer: "Samsung"
 };
 //constructor function
-function TV (screenSize, screenType, refreshRate, manufacturer) {
+function TV(screenSize, screenType, refreshRate, manufacturer) {
     this.screenSize = screenSize;
     this.screenType = screenType;
     this.refreshRate = refreshRate;
@@ -22,7 +22,7 @@ function TV (screenSize, screenType, refreshRate, manufacturer) {
         `A ${this.screenSize}" ${this.refreshRate}hz ${this.screenType} ${this.manufacturer} Television.`;
 }
 
-myTv.refreshRate;
+//myTv.refreshRate;     why was this code here? what does it do?
 
 let firstTv = new TV(80, "led", 80, "LG");
 

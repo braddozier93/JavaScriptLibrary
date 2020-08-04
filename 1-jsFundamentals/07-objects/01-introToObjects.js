@@ -76,7 +76,7 @@ let spaceJam = {
 
 console.log(Object.keys(spaceJam));
 console.log(Object.keys(spaceJam.toonSquad));
-//console.log(spaceJam.nbaPlayers.charlotteHornets1);
+console.log(spaceJam.nbaPlayers.charlotteHornets1);
 //console.log(spaceJam.monstars[0]);
 //console.log(spaceJam.nbaPlayers["phoenix Suns"]);
 

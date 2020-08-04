@@ -8,6 +8,9 @@ listTitle.style.textAlign = 'center';
 
 listItem.style.color = "red";
 
+let body = document.querySelector('body');
+body.style.backgroundColor = "lightblue";
+
 let grocery = document.getElementsByClassName('groceryItem');
 console.log(grocery);
 console.log(grocery[2]);
@@ -42,7 +45,7 @@ console.log(toDoTitle);
 let toDoTitle2 = document.getElementById("inputField");
 console.log(toDoTitle2);
 
-//underline all ist items in a ul--(for loop???)
+//underline all list items in a ul--(for loop???)
 for(tag of unorderedListItems) {
     tag.style.textDecoration = "underline";
     tag.style.fontSize = "14px";
@@ -56,7 +59,8 @@ document.getElementsByClassName("groceryItem")[0].innerText = "Moondew Drops";
 //add event listeners to our document
 //its a method that takes two arguments            listener
 document.getElementById("clickMe").addEventListener('click', (event) => {
-    event.target.style.backgroundColor = "lightBlue";
+    event.target.style.backgroundColor = "Blue";
+    event.target.style.color = "white";
 });
 //event is an object, has an html target of style, and a style of bg color
 
@@ -81,5 +85,5 @@ unorderedListItems = document.querySelectorAll("ul, li");
 
 for(tag of unorderedListItems) {
     tag.style.textDecoration = "underline";
-    tag.style.fontSize = "14px";
+    tag.style.fontSize = "16px";
 };

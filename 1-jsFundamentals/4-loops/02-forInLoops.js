@@ -18,11 +18,13 @@ let catArray = ["tabby", "shorthair", "burmese", "maine coon", "rag doll"];
 for (let cat in catArray){
     console.log(cat[0]);
     console.log(catArray[cat]);
-}//           arrayname   position in array
+}
+//           arrayname   position in array
 
 /*challenge - write a for in loop that capitalizes the first letter of a name
 and lowercases the rest of the name*/
 //my effort:
+/*
 let name = "donovan";
 
 for (let letter in name){
@@ -32,6 +34,7 @@ for (let letter in name){
     console.log(letter.slice(1).toLowerCase());
     }
 }
+*/
 //actual solution:
 let name = "dOnOvAn";
 let capName;
