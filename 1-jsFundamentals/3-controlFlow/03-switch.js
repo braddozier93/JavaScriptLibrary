@@ -16,7 +16,7 @@ switch (officeCharacter) {
 //default statement is the catch all
 
 //challenge dessert menu
-let dessert = "icecream";
+let dessert = "cake";
 
 switch (dessert) {
     case "pie":
@@ -32,3 +32,22 @@ switch (dessert) {
         console.log("Not on the menu");
 }
 //break breaks you out of the code block once a condition is met
+
+//PRACTICE----why can't i get it to work as switch statement as opposed to if else????/
+// let weather = "3";
+
+// switch (weather) {
+//     case (weather <= '0'):
+//         console.log("stay inside");
+//         break;
+//     case (weather > '0' && weather <= '32'):
+//         console.log("wear a coat and gloves");
+//         break;
+//     case (weather > '32' && weather <= '50'):
+//         console.log("wear a heavy jacket or coat");
+//         break;
+//     case (weather > '50' && weather <= '72'):
+//         console.log('you may need a jacket')
+//      default: 
+//     console.log("It's " + weather + " , no jacket will be necessary");
+// }

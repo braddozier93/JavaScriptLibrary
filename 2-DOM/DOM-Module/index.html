@@ -41,7 +41,14 @@
         console.log(document.getElementsByTagName("p"));
     });
     document.getElementById('nameInput').addEventListener('keyup', (event) => {
-        document.getElementsByTagName("p")[1].innerText = `Everyone please welcome ${event.target.value} to the stage.`;
+        //do the if else in case user deletes name...can go back to "no name entered"
+        if (event.target.value === '') {
+            document.getElementsByTagName("p")[1].innerText = `No name has been entered yet`;
+        } else {
+            document.getElementsByTagName("p")[1].innerText = `Everyone please welcome ${event.target.value} to the stage.`;
+        }
+        //return name in upper case
+        // document.getElementsByTagName("p")[1].innerText = `Everyone please welcome ${event.target.value.toUpperCase()} to the stage.`;
     });
     </script>
 </body>

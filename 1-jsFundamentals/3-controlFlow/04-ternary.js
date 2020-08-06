@@ -1,6 +1,6 @@
 //short cut for if and if else statement, but not else if
 
-let num = 6;
+let num = 9;
 
 (num > 0) ? console.log("yes") : console.log("no");
 

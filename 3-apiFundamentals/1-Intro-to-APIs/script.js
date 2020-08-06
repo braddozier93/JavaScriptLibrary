@@ -4,7 +4,7 @@ const searchForm = document.querySelector('form');
 const spaceShips = document.querySelector('table');
 
 searchForm.addEventListener("submit", fetchSpace);
-//revisit fetching
+//you need to continue to revisit fetching and practice it
 function fetchSpace(e) {
     e.preventDefault();
     //console.log(e);

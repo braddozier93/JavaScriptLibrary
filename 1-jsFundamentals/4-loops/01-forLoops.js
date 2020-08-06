@@ -15,10 +15,10 @@ console.log(i)
 
 //challenge 1 - count to 20 by 2's
 //do we need the let i = 200 statement in a for loop? NO...just showing local variable vs a global
-let i = 200;
+let j = 200;
 
-for (i = 0; i <= 20; i+=2){
-    console.log(i);
+for (j = 0; j <= 20; j+=2){
+    console.log(j);
 }
 
 //challenge 2 - using a for loop, count from 10 to 0, going down by 1 each time

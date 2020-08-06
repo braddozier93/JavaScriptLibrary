@@ -35,7 +35,7 @@ console.log(correctName);
 //why is line 34 console.log undefined---because there is no return inside the function
 
 
-//function to find the area of a rectangle
+//FUNCTION to find the area of a rectangle
 function areaOfRectangle(length, width) {
     let area = length * width;
     return area;

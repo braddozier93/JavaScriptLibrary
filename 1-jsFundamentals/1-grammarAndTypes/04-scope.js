@@ -1,7 +1,7 @@
 let x = 12;//global scope
 
 function scope(){
-    let x = 33;//local scope wihin code block{}
+    let x = 33;//local scope wihin code block{} let restricts it to code block
     console.log(x);
 }
 
@@ -17,19 +17,19 @@ function scope2() {
 }
 
 scope2();
-console.log(y);
+console.log(y); 
 
 ////////////////// example 3
-let x = 12;
+let a = 12;
 
 function varTest() {
-    let x = 33;
+    let a = 33;
     if (true) {
-        let x = 45;
-        console.log(x);
+        let a = 45;
+        console.log(a);
     }
-    console.log(x);
+    console.log(a);
 }
 
 varTest();
-console.log(x);
+console.log(a);

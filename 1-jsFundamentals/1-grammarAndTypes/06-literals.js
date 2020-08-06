@@ -8,6 +8,11 @@ let december = 12;
 
 //boolean literal--true or false
 let tired = false;
+console.log(tired);
+
+//floating point literals
+let dec = 2.144e3;
+console.log(dec);
 
 //object literal {object in here--can have multiple keys and values in the object}
 let soup = {
@@ -17,6 +22,7 @@ let soup = {
 }
 
 console.log(soup.a);
+console.log(soup.b);
 
 //array literal
 
